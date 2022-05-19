@@ -1,10 +1,10 @@
 <script>
-  let count = 0;
+  let money = 0;
 
   function increment() {
-    count += 1;
+    money += 1;
   }
 </script>
 <button on:click={increment}>
-  Pressed {count} times
+  Pressed {money} times
 </button>
